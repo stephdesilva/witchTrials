@@ -90,7 +90,7 @@ ggplot(bydecade,
   theme_light()+
   theme(legend.position="bottom")+
   theme(
-    axis.text.x=element_text(angle=45,hjust=1, size = 15))+
+    axis.text.x=element_text(angle=45,hjust=1, size = 10))+
   ggtitle("Number of deaths over time")
 ```
 
@@ -120,7 +120,7 @@ vis_miss(db, cluster = TRUE, sort_miss = TRUE)+
   theme_light() +
   theme(legend.position="bottom")+
   theme(
-    axis.text.x=element_text(angle=-45,hjust=1, size = 15))
+    axis.text.x=element_text(angle=-45,hjust=1, size = 10))
 ```
 
 Let's take a different look at where our missing variables are:
